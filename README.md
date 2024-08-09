@@ -1,32 +1,33 @@
-# E-Commerce Website
+# E-Commerce Website Frontend
 
-This project is a full-featured e-commerce website built using the MERN stack (MongoDB, Express.js, React, Node.js) with additional styling and UI components from Bootstrap and Ant Design (Antd). The website provides a complete shopping experience, including user authentication, product browsing, cart management, and order processing.
+This is the frontend of an e-commerce website built using the MERN stack (MongoDB, Express.js, React, Node.js) with Bootstrap and Ant Design (Antd) for UI components.
 
 ## Features
 
-- **User Authentication**:
-  - Register and log in with secure password hashing.
-  - User roles: admin and customer.
-  
+- **User Authentication**: 
+  - Users can sign up, log in, and manage their profiles.
+  - Protected routes for authenticated users (e.g., checkout, order history).
+
 - **Product Management**:
-  - Admins can add, edit, and delete products.
-  - Customers can browse and search for products.
+  - Display products with categories, filters, and sorting options.
+  - Product details with images, description, and reviews.
 
 - **Shopping Cart**:
-  - Add products to the cart.
-  - Update quantities or remove items from the cart.
+  - Add, remove, and update product quantities in the cart.
+  - Persistent cart data across sessions.
 
-- **Order Management**:
-  - Place orders and process payments.
-  - Admins can view and manage customer orders.
+- **Checkout Process**:
+  - Secure checkout with payment integration.
+  - Order summary and confirmation.
 
 - **Responsive Design**:
-  - Fully responsive design using Bootstrap and Ant Design (Antd) components.
-  - Mobile-first approach for seamless shopping on any device.
+  - Mobile-first responsive design using Bootstrap and Ant Design.
+  - Consistent UI across different devices.
 
 
-   ### Prerequisites
+### Prerequisites
 
-- **Node.js**: Install Node.js (v14 or higher recommended).
-- **MongoDB**: Set up a MongoDB database (local or cloud-based).
-- **NPM**: Package managers for installing dependencies.
+- **Node.js**: Ensure you have Node.js 12.x or higher installed.
+- **npm**: Use npm or yarn as your package manager.
+- **Backend API**: Ensure the backend API (from your MERN stack backend repository) is running and accessible.
+
